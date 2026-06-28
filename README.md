@@ -1,4 +1,4 @@
-# LOJI API  ----o0o---
+# LOJI API  </>
 This is a program for encrypt any extentions file
 
 ██╗      ██████╗      ██╗██╗     █████╗ ██████╗ ██╗
