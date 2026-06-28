@@ -13,5 +13,6 @@ This is a program for encrypt any extentions file
 - Command:  pip install cryptography
 2. Run it
 - Command:  python encryptor.py   "or"   python decryptor.py
+  
 NOTICE: You must put file to be encrypted/file to be decrypted and file encryptor/decryptor in the same folder 
 
