@@ -8,7 +8,7 @@ print("`-----' `-----'  `-----' `--'    `--' `--'`--'     `--'   -nghya-")
 
 
 def decrypt_file(input_file, key_file):
-    # Đọc khóa từ file
+    # Đọc key
     with open(key_file, "rb") as f:
         key = f.read()
     aesgcm = AESGCM(key)
