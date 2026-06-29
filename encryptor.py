@@ -7,7 +7,7 @@ print("|  |   |  | |  |,--. |  ||  |    |  .-.  ||  '--' ||  | | encryptor |")
 print("|  '--.'  '-'  '|  '-'  /|  |    |  | |  ||  | --' |  | '-----------'")
 print("`-----' `-----'  `-----' `--'    `--' `--'`--'     `--'   -nghya-")
 
-# Khóa bí mật (nên lưu ra file riêng để dùng lại)
+# khóa
 key = AESGCM.generate_key(bit_length=256)
 aesgcm = AESGCM(key)
 
@@ -17,10 +17,10 @@ def encrypt_file(input_file, output_file):
     nonce = os.urandom(12)
     encrypted_data = aesgcm.encrypt(nonce, data, None)
 
-    # Lấy phần mở rộng gốc
+    # Lấy ext
     ext = os.path.splitext(input_file)[1].encode()
 
-    # Lưu: nonce + độ dài ext + ext + dữ liệu mã hóa
+    # Se
     with open(output_file, 'wb') as f:
         f.write(nonce + bytes([len(ext)]) + ext + encrypted_data)
 
