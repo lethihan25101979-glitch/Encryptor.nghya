@@ -19,3 +19,5 @@ NOTICE: You must put file to be encrypted/file to be decrypted + key.bin and fil
 
 # What's key.bin
 
+it's a file such as a key to decrypt file is encrypted. If you don't have it, you cann't decrypt file is encrypted
+
