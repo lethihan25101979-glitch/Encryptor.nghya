@@ -15,5 +15,7 @@ This is a program for encrypt any extensions file
 - Command:  python encryptor.py   "or"   python decryptor.py
 - Open programe (setup by file .exe)
   
-NOTICE: You must put file to be encrypted/file to be decrypted and file encryptor/decryptor in the same folder 
+NOTICE: You must put file to be encrypted/file to be decrypted + key.bin and file encryptor/decryptor in the same folder 
+
+# What's key.bin
 
